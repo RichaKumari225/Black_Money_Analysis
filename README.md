@@ -1,3 +1,4 @@
+![Black Money](https://github.com/RichaKumari225/Black_Money_Analysis/blob/0fa83d976c3c3f81ca9b302dc07a27cfec242916/Black_money.png)
 
 
 # Black Money Analysis
@@ -11,6 +12,14 @@ The Black Money Dashboard is an interactive and robust analytical tool designed 
 - User-Friendly Interface: Simple navigation allows users to access different functionalities easily.
 - Data Filtering: Users can filter data based on specific criteria to focus on relevant information.
 - Downloadable Reports: Generate and download comprehensive reports for further analysis.
+## Tech Stack
+
+
+**Programming Languages and Frameworks :** Python , Streamlit
+
+**Data Analysis and Visualization Libraries :** Pandas, Matplotlib, Seaborn
+
+**Other Tools and Technologies :** Jupyter Notebook, VS Code
 ## Project Files
 
 [1. Main.py](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/charts.py)
