@@ -85,6 +85,7 @@ data = pd.read_csv("merged_data.csv")
 st.set_page_config(page_icon='Black_money.png', page_title='Black Money Dashboard', layout='wide')
 
 ```
+## Video Walkthrough of the project
 
 ![Black Money demo](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/Screenshots/undefined%20-%20Imgur.gif)
 
