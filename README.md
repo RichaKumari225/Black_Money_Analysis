@@ -26,8 +26,26 @@ The Black Money Dashboard is an interactive and robust analytical tool designed 
 
 **Other Tools and Technologies :** Jupyter Notebook, VS Code
 
-
-
+## Directory Structure
+``` plain text
+Black_Money_Analysis / 
+├── README.md             
+├── main.py               
+├── charts.py              
+├── preprocessor.py 
+├── requirements.txt        
+├── data / 
+│   ├── black_money.csv 
+│   ├── ml_tag.csv      
+│   ├── ml.csv         
+│   └── merged_data.csv      
+├── notebooks / 
+│   └── Black_money_EDA.ipynb   
+├── images /                 
+│   ├── Black money2.png 
+│   ├── Black money3.png 
+│   └── undefined-imgur.gif 
+```
 
 ## Project Files
 
