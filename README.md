@@ -1,3 +1,5 @@
+
+
 # Black Money Analysis
 
 The Black Money Dashboard is an interactive and robust analytical tool designed to monitor and detect fraudulent financial activities associated with black money. By leveraging data analysis and visualization techniques, the dashboard provides insights into suspicious transactions, fraud patterns, and crime classifications. The tool serves as a resource for enhancing transparency in financial transactions, aiding regulatory compliance, and assisting law enforcement agencies in combating financial crimes.
@@ -66,36 +68,7 @@ Open your web browser and navigate to http://localhost:8501 to view the dashboar
 - Navigating the Dashboard: Use the sidebar to select different analysis options.
 - Interacting with Visuals: Click on charts for detailed views or to filter data.
 - Generating Reports: Use the report generation feature to download analyses in various formats.
-## Appendix
 
-Any additional information goes here
-
-
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
 
 ## Contributors
