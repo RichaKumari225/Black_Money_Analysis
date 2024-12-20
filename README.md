@@ -1,5 +1,10 @@
 ![Black Money](https://github.com/RichaKumari225/Black_Money_Analysis/blob/0fa83d976c3c3f81ca9b302dc07a27cfec242916/Black_money.png)
 
+ ## Try Dashboard
+
+Try the app, for different examples. 
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blackmoneyanalysis.streamlit.app/#distribution-of-transaction-amounts)
 
 # Black Money Analysis
 
@@ -20,6 +25,10 @@ The Black Money Dashboard is an interactive and robust analytical tool designed 
 **Data Analysis and Visualization Libraries :** Pandas, Matplotlib, Seaborn
 
 **Other Tools and Technologies :** Jupyter Notebook, VS Code
+
+
+
+
 ## Project Files
 
 [1. Main.py](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/charts.py)
@@ -38,6 +47,7 @@ The Black Money Dashboard is an interactive and robust analytical tool designed 
 
 [3. Preprocessor.py](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/preprocess.py)
 - Contains data preprocessing functions for cleaning and transforming the dataset.
+  
 [4. Black_money_EDA](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/Black_money_EDA.ipynb)
 - Jupyter Notebook for exploratory data analysis (EDA).
 - Provides insights into the dataset and prepares it for visualization.
@@ -52,6 +62,31 @@ Before running the dashboard, ensure you have the following installed:
    - matplotlib
    - seaborn
 
+## Quickstart
+
+``` python
+import streamlit as st
+import pandas as pd
+import preprocess
+
+from charts import (
+   plot_daily_transactions,
+   plot_fraud_analysis,
+   plot_distribution_of_transaction_amounts,
+   plot_fraud_type_analysis,
+   plot_heatmap,
+   plot_crime_level_trends
+)
+# Load your data
+data = pd.read_csv("merged_data.csv")
+
+# Set up your Streamlit page configuration
+#Adjusting the tab image and name
+st.set_page_config(page_icon='Black_money.png', page_title='Black Money Dashboard', layout='wide')
+
+```
+
+![Black Money demo](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/Screenshots/undefined%20-%20Imgur.gif)
 
 ## Installation
 
@@ -78,6 +113,12 @@ Open your web browser and navigate to http://localhost:8501 to view the dashboar
 - Interacting with Visuals: Click on charts for detailed views or to filter data.
 - Generating Reports: Use the report generation feature to download analyses in various formats.
 
+## Screenshots
+
+![Fraud analysis](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/Screenshots/Black%20money2.png)
+![Types of fraud](https://github.com/RichaKumari225/Black_Money_Analysis/blob/master/Screenshots/Blackmoney3.png)
+
+
 
 
 ## Contributors
@@ -85,3 +126,6 @@ Open your web browser and navigate to http://localhost:8501 to view the dashboar
 - [@Richa Kumari](https://www.linkedin.com/in/richa-kumari-213891215)
 - [@Anand Nair](https://linkedin.com/in/anandnair99)
 - [@V. N. Nikhilesh Yadapaka](https://linkedin.com/in/v-n-nikhilesh-yadapaka-1ab422237)
+
+## Footer
+- Developed by Team Data Disruptors_007 to enhance financial transparency .
