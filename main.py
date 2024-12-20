@@ -19,7 +19,7 @@ data = pd.read_csv("merged_data.csv")
 
 # Set up your Streamlit page configuration
 #Adjusting the tab image and name
-st.set_page_config(page_icon='Black Money.png', page_title='Black Money Dashboard', layout='wide')
+st.set_page_config(page_icon='Black_money.png', page_title='Black Money Dashboard', layout='wide')
 
 # --------------------------------------------------------------- LOGO AND OBJECTIVE PART------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ col11,col14 = st.columns([1,5])
 with col11:
     st.write("")
     st.write("")
-    st.image("C:\\Users\\HP\\OneDrive\\Desktop\\Construct week B41\\Black money.png", width=200)
+    st.image("Black_money.png", width=200)
 
     #st.image('Black Money.png', width=200, use_container_width=False)    
    
