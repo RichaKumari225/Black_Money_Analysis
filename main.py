@@ -28,7 +28,7 @@ col11,col14 = st.columns([1,5])
 with col11:
     st.write("")
     st.write("")
-    st.image('"C:\Users\HP\OneDrive\Desktop\Construct week B41\Black money.png"', width=200)
+    st.image("C:\Users\HP\OneDrive\Desktop\Construct week B41\Black money.png", width=200)
 
     #st.image('Black Money.png', width=200, use_container_width=False)    
    
