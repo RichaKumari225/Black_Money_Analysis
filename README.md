@@ -4,7 +4,7 @@
 
 Try the app, for different examples. 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blackmoneyanalysis.streamlit.app/#distribution-of-transaction-amounts)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blackmoneyanalysis.streamlit.app/)
 
 # Black Money Analysis
 
