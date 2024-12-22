@@ -116,7 +116,7 @@ def plot_heatmap(filtered_df):
     st.write("") # For giving a line space
     
     st.write("### Heatmap of Total Amount by Crime Level Over Time")
-    st.write("This heatmap visualizes the total transaction amounts associated with different levels of crime across various months. Each row represents a specific level of crime, while each column corresponds to a month. The intensity of the colors indicates the total amount transacted, with darker shades representing higher amounts. This visualization helps identify trends and patterns in criminal activity over time, allowing for better analysis and understanding of financial behaviors related to different types of crimes.")
+    st.write("This heatmap visualizes the total transaction amounts associated with different levels of crime across various months. Each row represents a specific level of crime, while each column corresponds to a month. The intensity of the colors indicates the total amount transacted, with lighter shades representing higher amounts. This visualization helps identify trends and patterns in criminal activity over time, allowing for better analysis and understanding of financial behaviors related to different types of crimes.")
     
     heatmap_data = filtered_df.pivot_table(values='amountofmoney', index='levelofcrime',
                                             columns=filtered_df['month'], aggfunc='sum')
